@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<th:block th:fragment="hero-section">
+    <section class="hero" id="home">
+        <div class="hero-background"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-greeting">Hey, I'm</div>
+                <h1 class="hero-title"><span class="gradient-text">Juan Díaz</span></h1>
+                <h2 class="hero-subtitle">Back-end Developer</h2>
+                <p class="hero-description">
+                    I am a student passionate about technology and its impact on society, with a special interest in back-end development using Java. I am currently training in the field of application development and seeking professional growth within the technology sector. I consider myself a curious, adaptable person with a strong motivation to learn and contribute value to work teams. I am also interested in cinema and video games as forms of artistic expression.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        View My Work <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        Contact Me
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/juan-diaz-canas" class="social-link">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/juandica21" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-visual-inner">
+                    <div class="hero-visual-frame">
+                        <img src="/images/profile.jpeg" alt="profile" style="width:90%; height: 90%; object-fit: cover; border-radius: 15px">
+                    </div>
+                    <div class="hero-visual-frame"></div>
+                    <div class="hero-visual-frame"></div>
+                </div>
+                <div class="hero-stats stats-1">
+                    <div class="hero-stats-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="hero-stats-text">
+                        <div class="hero-stats-label">Developer</div>
+                        <div class="hero-stats-value">Back-end</div>
+                    </div>
+                </div>
+                <div class="hero-stats stats-2">
+                    <div class="hero-stats-icon">
+                        <i class="fa-solid fa-chalkboard-user"></i>
+                    </div>
+                    <div class="hero-stats-text">
+                        <div class="hero-stats-label">Student</div>
+                        <div class="hero-stats-value">CE IA & BigData</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll down</span>
+            <div class="scroll-indicator-line">
+                <div class="scroll-indicator-dot"></div>
+            </div>
+        </div>
+    </section>
+</th:block>
+</html>

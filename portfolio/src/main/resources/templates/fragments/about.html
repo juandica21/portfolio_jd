@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<th:block th:fragment="about-section">
+
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-title-container">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Back-end Dev</p>
+            </div>
+            <div class="about-container">
+                <div class="about-content">
+                    <div class="about-tagline">My Background</div>
+                    <!-- <h3 class="about-heading">Developer By Profession, Mariquita By Passion</h3> -->
+                    <p class="about-text">
+                        I am passionate about technology and its ability to transform society, with a strong focus on Back-end development using Java. I consider myself curious, adaptable, and highly motivated to keep learning, always aiming to deliver value to the projects and teams I am part of.                    </p>
+                    <p class="about-text">
+                        I developed a mobile application that recommends recipes based on the ingredients available to the user, integrating an artificial intelligence model deployed on AWS along with cloud storage services. To achieve this, I designed a REST API that connects the application with the AI model, while also incorporating external APIs to enrich nutritional information and optimize the user experience.                    </p>
+                    <p class="about-text">
+                        My experience also includes web maintenance, application development, database management, and graphic design. These projects have given me a comprehensive view of the technology sector and helped me strengthen key skills such as teamwork, problem-solving, and effective communication.                    </p>
+                    <!-- Skills -->
+                    <div class="skills-container">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-java"></i>
+                            </div>
+                            <div class="skill-name">Java</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="skill-name">SpringBoot</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="skill-name">MySQL</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <div class="skill-name">React</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="skill-name">MongoDB</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="skill-name">Python</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fa-solid fa-code-branch"></i>
+                            </div>
+                            <div class="skill-name">Git</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="skill-name">Kotlin</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="about-image-container">
+                        <div class="about-image-bg"></div>
+                        <img src="/images/hero-section.jpg" alt="About" class="about-image">
+                    </div>
+                    <div class="about-decorations">
+                        <div class="about-decoration"></div>
+                        <div class="about-decoration"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</th:block>
+</html>

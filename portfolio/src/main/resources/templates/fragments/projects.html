@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<th:block th:fragment="projects-section">
+    <section class="section projects" id="projects">
+        <div class="container">
+            <div class="section-title-container">
+                <h2 class="section-title">My Work</h2>
+                <p class="section-subtitle">Explore some of my recent projects</p>
+            </div>
+            <div class="projects-container">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/images/todo_app.png" alt="Project1">
+                        <div class="project-overlay"></div>
+                        <div class="project-tags">
+                            <span class="project-tag">Spring Boot</span>
+                            <span class="project-tag">Spring Security</span>
+                            <span class="project-tag">Spring Test</span>
+                            <span class="project-tag">Data JPA</span>
+                            <span class="project-tag">MariaDB</span>
+                            <span class="project-tag">JWT</span>
+                            <span class="project-tag">Postman</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">TODO APP</h3>
+                        <p class="project-description">
+                            This is a TODO_APP for a technical test, built with Spring Boot, JWT for authentication, and Swagger for API documentation.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/juandica21/todo_app" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</th:block>
+</html>
