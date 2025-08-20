@@ -1,13 +1,13 @@
 :root {
-    --primary-color: #6366f1;
-    --secondary-color: #a855f7;
-    --accent-color: #ec4899;
-    --dark-color: #0a0a16;
-    --darker-color: #050510;
-    --light-color: #f8fafc;
-    --text-color: #e2e8f0;
-    --text-light: #94a3b8;
-    --success-color: #10b981;
+    --primary-color: #22c55e;
+    --secondary-color: #16a34a;
+    --accent-color: #4ade80;
+    --dark-color: #0a0f0a;
+    --darker-color: #050805;
+    --light-color: #f1fdf4;
+    --text-color: #d1fae5;
+    --text-light: #6ee7b7;
+    --success-color: #34d399;
 }
 
 * {
@@ -154,7 +154,7 @@ a {
 }
 
 .header.scrolled {
-    background: rgba(5, 5, 16, 0.9);
+    background: rgb(10, 15, 10);
     backdrop-filter: blur(10px);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     padding: 1rem 0;
@@ -360,7 +360,7 @@ a {
 
 .hero-stats {
     position: absolute;
-    background: rgba(10, 10, 22, 0.8);
+    background: rgb(10, 15, 10);
     backdrop-filter: blur(10px);
     border-radius: 12px;
     padding: 1rem 1.5rem;
