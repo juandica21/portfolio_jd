@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
-<th:block th:fragment="projects-section">
+<th:block xmlns:th="http://www.thymeleaf.org" th:fragment="projects-section">
     <section class="section projects" id="projects">
         <div class="container">
             <div class="section-title-container">
@@ -23,7 +21,7 @@
                         </div>
                     </div>
                     <div class="project-content">
-                        <h3 class="project-title">TODO APP</h3>
+                        <h3 class="project-title">TODO APP </h3>
                         <p class="project-description">
                             This is a TODO_APP for a technical test, built with Spring Boot, JWT for authentication, and Swagger for API documentation.
                         </p>
@@ -34,8 +32,32 @@
                         </div>
                     </div>
                 </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/images/assistant.png" alt="Project2">
+                        <div class="project-overlay"></div>
+                        <div class="project-tags">
+                            <span class="project-tag">Spring Boot</span>
+                            <span class="project-tag">Spring AI</span>
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">Postman</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Research Assistant</h3>
+                        <p class="project-description">
+                            This is a local Chrome extension that can help you summarize or explain anything you want thanks to Gemini AI.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/juandica21/research_assistant" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 </th:block>
-</html>
